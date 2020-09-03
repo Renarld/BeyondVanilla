@@ -1,5 +1,6 @@
 ![Beyond Vanilla Banner](https://i.imgur.com/n06FxSD.png)
 Beyond Vanilla is a Fabric mod that adds small vanilla-like features that enhance Minecraft. The purpose of this mod is to add features that might fit Vanilla Minecraft without going over the top.
+
 [![Fabric API banner](https://i.imgur.com/445zc5d.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api)
 ## Current features
 ##### Added a Sweet Berry Bush for every Dye in Minecraft
