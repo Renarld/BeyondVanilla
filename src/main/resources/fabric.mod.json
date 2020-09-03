@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "beyondvanilla",
+  "version": "${version}",
+  "name": "Beyond Vanilla",
+  "description": "Expands upon features from Vanilla Minecraft.",
+  "authors": [
+    "Renarld"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.renarld.beyondvanilla.BeyondVanilla"
+    ],
+    "client": [
+      "net.renarld.beyondvanilla.BlockRender"
+    ],
+    "modmenu": [
+      "net.renarld.beyondvanilla.ModMenu"
+    ]
+  },
+  "mixins": [
+    "beyondvanilla.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
