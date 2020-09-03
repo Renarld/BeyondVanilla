@@ -113,14 +113,13 @@ public class ShulkerTapeBoxBlock extends Block implements BlockEntityProvider {
                         }
                     }
 
-                        neighborChest = world.getBlockState(pos.offset(direction.rotateYCounterclockwise()));
-                        if (neighborChest.isOf(Blocks.CHEST) && direction.getAxis().isHorizontal()) {
-                            if (neighborChest.get(CHEST_TYPE) == ChestType.SINGLE && neighborChest.get(FACING) == blockState.get(FACING)) {
-                                world.setBlockState(pos.offset(direction.rotateYCounterclockwise()), neighborChest.with(CHEST_TYPE, ChestType.LEFT));
-                                blockState = blockState.with(CHEST_TYPE, ChestType.RIGHT);
-                            }
+                    neighborChest = world.getBlockState(pos.offset(direction.rotateYCounterclockwise()));
+                    if (neighborChest.isOf(Blocks.CHEST) && direction.getAxis().isHorizontal()) {
+                        if (neighborChest.get(CHEST_TYPE) == ChestType.SINGLE && neighborChest.get(FACING) == blockState.get(FACING)) {
+                            world.setBlockState(pos.offset(direction.rotateYCounterclockwise()), neighborChest.with(CHEST_TYPE, ChestType.LEFT));
+                            blockState = blockState.with(CHEST_TYPE, ChestType.RIGHT);
                         }
-
+                    }
 
                     world.removeBlockEntity(pos);
                     world.setBlockState(pos, blockState);
