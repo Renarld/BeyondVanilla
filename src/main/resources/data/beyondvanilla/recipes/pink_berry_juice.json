@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "beyondvanilla:pink_pulverized_berries"
+        },
+        {
+            "item": "minecraft:sugar"
+        }
+    ],
+    "result": {
+        "item": "beyondvanilla:pink_berry_juice",
+        "count": 1
+    }
+}

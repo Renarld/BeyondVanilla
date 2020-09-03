@@ -3,6 +3,7 @@ package net.renarld.beyondvanilla;
 import net.fabricmc.api.ModInitializer;
 import net.renarld.beyondvanilla.client.ItemGroup;
 import net.renarld.beyondvanilla.config.Config;
+import net.renarld.beyondvanilla.init.MobEntityInit;
 import net.renarld.beyondvanilla.registry.*;
 
 public class BeyondVanilla implements ModInitializer {
@@ -23,6 +24,9 @@ public class BeyondVanilla implements ModInitializer {
 
 		// Entity Registration
 		new EntityRegistration();
+
+		// Mob Entity Attribute Initializer
+		new MobEntityInit();
 
 		// Biome Registration
 		new BiomeRegistration();

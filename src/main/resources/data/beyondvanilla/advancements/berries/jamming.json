@@ -1,0 +1,31 @@
+{
+    "parent": "beyondvanilla:berries/juicy",
+    "display": {
+        "title": {
+            "translate": "advancements.beyondvanilla.berries.jamming.title"
+        },
+        "description": {
+            "translate": "advancements.beyondvanilla.berries.jamming.description"
+        },
+        "icon": {
+            "item": "beyondvanilla:red_berry_jam"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "jamming": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "beyondvanilla:berry_jam"
+                    }
+                ]
+            }
+        }
+    }
+}

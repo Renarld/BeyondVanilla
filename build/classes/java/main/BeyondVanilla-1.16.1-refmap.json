@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "net/renarld/beyondvanilla/mixin/PerfectSweetBerriesMixin": {
+      "onUse": "Lnet/minecraft/class_3830;method_9534(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;"
+    },
+    "net/renarld/beyondvanilla/mixin/BerryGrinderMixin": {
+      "recipeRemainder": "field_8008:Lnet/minecraft/class_1792;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/renarld/beyondvanilla/mixin/PerfectSweetBerriesMixin": {
+        "onUse": "Lnet/minecraft/class_3830;method_9534(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;"
+      },
+      "net/renarld/beyondvanilla/mixin/BerryGrinderMixin": {
+        "recipeRemainder": "field_8008:Lnet/minecraft/class_1792;"
+      }
+    }
+  }
+}

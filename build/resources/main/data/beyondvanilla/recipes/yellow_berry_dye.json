@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beyondvanilla:yellow_pulverized_berries"
+  },
+  "result": "minecraft:yellow_dye",
+  "experience": 0,
+  "cookingtime": 25
+}

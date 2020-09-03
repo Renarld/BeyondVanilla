@@ -1,0 +1,77 @@
+{
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2020-08-26 13:51:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2020-08-26 13:51:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2020-08-26 13:51:38 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "lime_sweet_berries": "2020-08-31 17:09:47 +0200",
+      "white_sweet_berries": "2020-08-31 17:09:47 +0200",
+      "magenta_sweet_berries": "2020-08-31 17:09:47 +0200",
+      "light_blue_sweet_berries": "2020-08-31 17:09:47 +0200",
+      "brown_sweet_berries": "2020-08-31 17:09:47 +0200",
+      "orange_sweet_berries": "2020-08-31 17:09:47 +0200",
+      "blue_sweet_berries": "2020-08-31 17:09:47 +0200",
+      "black_sweet_berries": "2020-08-31 17:09:47 +0200",
+      "yellow_sweet_berries": "2020-08-31 17:09:47 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2020-08-26 13:51:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2020-08-26 13:51:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2020-08-26 13:51:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2020-08-26 13:51:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2020-08-26 13:51:38 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-31 17:09:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-26 13:51:38 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

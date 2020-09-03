@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "beyondvanilla:item/brown_sweet_berries"
+    }
+}

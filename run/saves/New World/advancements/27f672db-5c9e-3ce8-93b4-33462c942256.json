@@ -1,0 +1,85 @@
+{
+  "beyondvanilla:berries/perfect_berries": {
+    "criteria": {
+      "perfect_berries": "2020-08-27 23:24:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2020-08-27 23:23:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2020-08-27 23:23:39 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "pink_sweet_berries": "2020-08-27 23:24:31 +0200",
+      "lime_sweet_berries": "2020-08-27 23:24:32 +0200",
+      "gray_sweet_berries": "2020-08-27 23:24:31 +0200",
+      "white_sweet_berries": "2020-08-27 23:24:38 +0200",
+      "purple_sweet_berries": "2020-08-27 23:24:28 +0200",
+      "perfect_sweet_berries": "2020-08-27 23:24:38 +0200",
+      "magenta_sweet_berries": "2020-08-27 23:24:34 +0200",
+      "green_sweet_berries": "2020-08-27 23:24:28 +0200",
+      "light_blue_sweet_berries": "2020-08-27 23:24:34 +0200",
+      "brown_sweet_berries": "2020-08-27 23:24:37 +0200",
+      "red_sweet_berries": "2020-08-27 23:24:27 +0200",
+      "cyan_sweet_berries": "2020-08-27 23:24:29 +0200",
+      "orange_sweet_berries": "2020-08-27 23:24:35 +0200",
+      "blue_sweet_berries": "2020-08-27 23:24:35 +0200",
+      "light_gray_sweet_berries": "2020-08-27 23:24:30 +0200",
+      "black_sweet_berries": "2020-08-27 23:24:37 +0200",
+      "yellow_sweet_berries": "2020-08-27 23:24:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2020-08-30 22:36:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-08-27 23:24:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2020-08-27 23:23:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2020-08-27 23:23:39 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-27 23:24:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-27 23:23:39 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2020-08-30 22:36:51 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 2567
+}

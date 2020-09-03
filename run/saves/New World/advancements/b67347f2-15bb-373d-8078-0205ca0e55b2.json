@@ -1,0 +1,45 @@
+{
+  "beyondvanilla:berries/perfect_berries": {
+    "criteria": {
+      "perfect_berries": "2020-09-03 20:34:42 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "perfect_sweet_berries": "2020-09-03 20:34:42 +0200"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2020-09-03 20:34:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-09-03 20:34:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2020-09-03 20:34:48 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-09-03 20:34:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-31 00:24:48 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

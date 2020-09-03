@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_lantern",
+  "textures": {
+    "lantern": "beyondvanilla:block/lit_gold_lantern"
+  }
+}

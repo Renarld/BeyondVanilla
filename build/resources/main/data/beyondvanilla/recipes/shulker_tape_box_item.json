@@ -1,0 +1,22 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    " X ",
+    "S#S",
+    " X "
+  ],
+  "key":{
+    "X":{
+      "item":"minecraft:shulker_shell"
+    },
+    "#":{
+      "item":"minecraft:ender_pearl"
+    },
+    "S":{
+    	"item":"minecraft:slime_ball"
+    }
+  },
+  "result":{
+    "item":"beyondvanilla:shulker_tape_box_item"
+  }
+}

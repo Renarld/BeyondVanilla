@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "beyondvanilla:item/shulker_tape_box_item"
+    }
+}

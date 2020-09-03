@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "beyondvanilla:white_berry_jam"
+        },
+        {
+            "item": "minecraft:bread"
+        }
+    ],
+    "result": {
+        "item": "beyondvanilla:white_jam_sandwich",
+        "count": 1
+    }
+}

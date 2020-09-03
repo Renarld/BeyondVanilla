@@ -1,0 +1,11 @@
+/kill @e[type=!minecraft:player, type=!minecraft:item_frame]
+
+/execute in minecraft:the_end run tp @s 0 100 0
+
+/execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:ender_dragon ~ ~ ~ {NoAI:1,Silent:1,Invulnerable:1}
+/execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:wither ~ ~ ~ {NoAI:1,Silent:1,Invulnerable:1}
+/execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:elder_guardian ~ ~ ~ {NoAI:1,Silent:1,Invulnerable:1}
+/execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:horse ~ ~ ~ {NoAI:1,Silent:1,Invulnerable:1}
+
+
+/execute align xyz positioned ~0.5 ~ ~0.5 run summon beyondvanilla:loot_slime 56 4 111 {NoAI:1,Size:1,HandItems:[{Count:1,id:diamond}]} run summon beyondvanilla:loot_slime 57 4 111 {NoAI:1,Size:1,HandItems:[{Count:1,id:emerald}]} run summon beyondvanilla:loot_slime 58 4 111 {NoAI:1,Size:1,HandItems:[{Count:1,id:"beyondvanilla:perfect_sweet_berries"}]} run summon beyondvanilla:loot_slime 59 4 111 {NoAI:1,Size:1,HandItems:[{Count:1,id:experience_bottle}]} run summon beyondvanilla:loot_slime 60 4 111 {NoAI:1,Size:1,HandItems:[{Count:1,id:music_disc_13}]} run summon beyondvanilla:loot_slime 61 4 111 {NoAI:1,Size:1,HandItems:[{Count:1,id:ender_pearl}]}

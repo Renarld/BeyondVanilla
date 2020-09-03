@@ -1,0 +1,33 @@
+{
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2020-08-31 20:10:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2020-08-31 20:07:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-31 20:07:07 +0200"
+    },
+    "done": false
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2020-08-31 20:09:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2020-08-31 20:07:54 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 2567
+}

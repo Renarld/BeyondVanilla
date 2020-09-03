@@ -117,6 +117,9 @@ public class ItemRegistration {
     public static final Item PERFECT_BERRY_JAM;
     public static final Item PERFECT_BERRY_SANDWICH;
 
+    // SPAWN EGGS
+    public static final Item LOOT_SLIME_SPAWN_EGG;
+
     static {
         // CONTAINERS
         SHULKER_TAPE_BOX_ITEM = Registry.register(Registry.ITEM, new Identifier("beyondvanilla", "shulker_tape_box_item"), new ShulkerTapeBoxItem(new Item.Settings().group(ItemGroup.BEYOND_VANILLA_ITEMGROUP)));
@@ -225,5 +228,8 @@ public class ItemRegistration {
         PERFECT_BERRY_JUICE = Registry.register(Registry.ITEM, new Identifier("beyondvanilla", "perfect_berry_juice"), new GlintItem((new Item.Settings().group(ItemGroup.BEYOND_VANILLA_BERRY_ITEMGROUP)).food(new FoodComponent.Builder().hunger(4).saturationModifier(0.2f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 0), 1.0F).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0), 1.0F).build())));
         PERFECT_BERRY_JAM = Registry.register(Registry.ITEM, new Identifier("beyondvanilla", "perfect_berry_jam"), new GlintItem((new Item.Settings().group(ItemGroup.BEYOND_VANILLA_BERRY_ITEMGROUP)).food(new FoodComponent.Builder().hunger(5).saturationModifier(0.3f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 0), 1.0F).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0), 1.0F).build())));
         PERFECT_BERRY_SANDWICH = Registry.register(Registry.ITEM, new Identifier("beyondvanilla", "perfect_jam_sandwich"), new GlintItem((new Item.Settings().group(ItemGroup.BEYOND_VANILLA_BERRY_ITEMGROUP)).food(new FoodComponent.Builder().hunger(7).saturationModifier(0.5f).statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 0), 1.0F).statusEffect(new StatusEffectInstance(StatusEffects.LUCK, 600, 0), 1.0F).build())));
+
+        // SPAWN EGGS
+        LOOT_SLIME_SPAWN_EGG = Registry.register(Registry.ITEM, new Identifier("beyondvanilla", "loot_slime_spawn_egg"), new SpawnEggItem(EntityRegistration.LOOT_SLIME_ENTITY, 0xFAFAD2, 0x996515, new Item.Settings().group(ItemGroup.BEYOND_VANILLA_ITEMGROUP)));
     }
 }

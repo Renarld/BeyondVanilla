@@ -1,0 +1,99 @@
+{
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2020-08-25 23:39:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2020-08-25 23:39:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-08-25 23:39:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2020-08-25 23:39:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2020-08-25 23:39:43 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-25 23:39:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2020-08-25 23:39:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2020-08-25 23:39:43 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "pink_sweet_berries": "2020-08-25 23:40:01 +0200",
+      "gray_sweet_berries": "2020-08-25 23:40:02 +0200",
+      "white_sweet_berries": "2020-08-25 23:39:58 +0200",
+      "purple_sweet_berries": "2020-08-25 23:40:05 +0200",
+      "magenta_sweet_berries": "2020-08-25 23:39:52 +0200",
+      "green_sweet_berries": "2020-08-25 23:40:06 +0200",
+      "brown_sweet_berries": "2020-08-25 23:39:56 +0200",
+      "red_sweet_berries": "2020-08-25 23:40:07 +0200",
+      "cyan_sweet_berries": "2020-08-25 23:40:04 +0200",
+      "orange_sweet_berries": "2020-08-25 23:39:53 +0200",
+      "blue_sweet_berries": "2020-08-25 23:39:55 +0200",
+      "light_gray_sweet_berries": "2020-08-25 23:40:03 +0200",
+      "black_sweet_berries": "2020-08-25 23:39:57 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2020-08-25 23:39:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2020-08-25 23:39:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2020-08-25 23:39:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-25 23:39:43 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2020-08-25 23:39:50 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 2567
+}

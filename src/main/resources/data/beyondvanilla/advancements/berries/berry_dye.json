@@ -1,0 +1,31 @@
+{
+    "parent": "beyondvanilla:berries/grind_em_up",
+    "display": {
+        "title": {
+            "translate": "advancements.beyondvanilla.berries.berry_dye.title"
+        },
+        "description": {
+            "translate": "advancements.beyondvanilla.berries.berry_dye.description"
+        },
+        "icon": {
+            "item": "minecraft:red_dye"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "berry_dye": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "beyondvanilla:dyes"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -49,11 +49,15 @@ public class ShulkerCapturePodItem extends Item {
                     entityTag.putString("id", entityId);
 
                     if (entity.hasCustomName() && entity.getCustomName() != null) {
-                        entityTag.putString("name", Text.Serializer.toJson(entity.getCustomName()));
+                        entityTag.putString("Name", Text.Serializer.toJson(entity.getCustomName()));
                     }
 
                     ItemStack entityPod = new ItemStack(ItemRegistration.SHULKER_CAPTURE_POD);
                     entityPod.setTag(entityTag);
+
+                    if (entity.hasCustomName() && entity.getCustomName() != null) {
+                        entityPod.setCustomName(entity.getCustomName());
+                    }
 
                     if (!user.isCreative()) {
                         stack.decrement(1);
@@ -109,8 +113,8 @@ public class ShulkerCapturePodItem extends Item {
 
                 if (livingEntity != null && itemStack.getTag() != null) {
                     livingEntity.readCustomDataFromTag(itemStack.getTag());
-                    if (itemStack.getTag().contains("name") && itemStack.getTag().getString("name") != null) {
-                        livingEntity.setCustomName(Text.Serializer.fromJson(itemStack.getTag().getString("name")));
+                    if (itemStack.getTag().contains("Name") && itemStack.getTag().getString("Name") != null) {
+                        livingEntity.setCustomName(Text.Serializer.fromJson(itemStack.getTag().getString("Name")));
                     }
                 }
 
@@ -128,18 +132,20 @@ public class ShulkerCapturePodItem extends Item {
         if (itemStack.getTag() != null && itemStack.getTag().contains("id")) {
             MutableText mutableText = this.getEntityType(itemStack.getTag()).getName().shallowCopy();
             if (itemStack.getTag().contains("Age") && itemStack.getTag().getInt("Age") < 0) {
-                mutableText.append(" (");
-                mutableText.append(new TranslatableText("tooltip.beyondvanilla.info.shulker_capture_pod.baby"));
-                mutableText.append(")");
+                MutableTextAppendFormatted(mutableText, new TranslatableText("tooltip.beyondvanilla.info.shulker_capture_pod.baby"));
             }
 
             if (this.getEntityType(itemStack.getTag()) == EntityType.SHEEP) {
-                mutableText.append(" (");
-                mutableText.append(new TranslatableText(this.getColor(itemStack.getTag())));
-                mutableText.append(")");
+                MutableTextAppendFormatted(mutableText, new TranslatableText(this.getColor(itemStack.getTag())));
             }
             tooltip.add(mutableText);
         }
+    }
+
+    private void MutableTextAppendFormatted(MutableText mutableText, Text text) {
+        mutableText.append(" (");
+        mutableText.append(text);
+        mutableText.append(")");
     }
 
     private String getColor(CompoundTag tag) {

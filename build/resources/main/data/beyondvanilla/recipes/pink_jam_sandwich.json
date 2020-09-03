@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "beyondvanilla:pink_berry_jam"
+        },
+        {
+            "item": "minecraft:bread"
+        }
+    ],
+    "result": {
+        "item": "beyondvanilla:pink_jam_sandwich",
+        "count": 1
+    }
+}

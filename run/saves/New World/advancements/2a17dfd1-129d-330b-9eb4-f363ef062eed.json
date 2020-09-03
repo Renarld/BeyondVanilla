@@ -1,0 +1,39 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2020-08-31 14:50:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:shulker": "2020-08-31 14:50:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2020-08-31 14:50:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-09-03 17:17:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:shulker": "2020-08-31 14:50:19 +0200"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-31 14:49:54 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

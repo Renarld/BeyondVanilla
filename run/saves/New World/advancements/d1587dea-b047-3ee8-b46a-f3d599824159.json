@@ -1,0 +1,61 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2020-08-24 20:58:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2020-08-24 20:58:49 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/perfect_berries": {
+    "criteria": {
+      "perfect_berries": "2020-08-24 21:02:47 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "pink_sweet_berries": "2020-08-24 21:01:09 +0200",
+      "lime_sweet_berries": "2020-08-24 21:01:10 +0200",
+      "gray_sweet_berries": "2020-08-24 21:01:07 +0200",
+      "white_sweet_berries": "2020-08-24 21:02:46 +0200",
+      "purple_sweet_berries": "2020-08-24 21:01:01 +0200",
+      "perfect_sweet_berries": "2020-08-24 21:02:47 +0200",
+      "magenta_sweet_berries": "2020-08-24 21:02:40 +0200",
+      "green_sweet_berries": "2020-08-24 21:00:59 +0200",
+      "light_blue_sweet_berries": "2020-08-24 21:02:38 +0200",
+      "brown_sweet_berries": "2020-08-24 21:02:44 +0200",
+      "red_sweet_berries": "2020-08-24 21:00:57 +0200",
+      "cyan_sweet_berries": "2020-08-24 21:01:04 +0200",
+      "orange_sweet_berries": "2020-08-24 21:02:42 +0200",
+      "blue_sweet_berries": "2020-08-24 21:02:43 +0200",
+      "light_gray_sweet_berries": "2020-08-24 21:01:06 +0200",
+      "black_sweet_berries": "2020-08-24 21:02:45 +0200",
+      "yellow_sweet_berries": "2020-08-24 21:01:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-09-03 17:00:47 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-24 21:00:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-24 20:58:38 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

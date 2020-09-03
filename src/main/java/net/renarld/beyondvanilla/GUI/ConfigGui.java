@@ -1,4 +1,4 @@
-package net.renarld.beyondvanilla.GUI;
+package net.renarld.beyondvanilla.gui;
 
 import me.shedaniel.clothconfig2.api.ConfigBuilder;
 import me.shedaniel.clothconfig2.api.ConfigCategory;

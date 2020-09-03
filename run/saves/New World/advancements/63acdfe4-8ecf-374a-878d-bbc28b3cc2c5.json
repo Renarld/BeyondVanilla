@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2020-08-27 22:52:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-27 22:52:55 +0200"
+    },
+    "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2020-08-27 22:52:55 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 2567
+}

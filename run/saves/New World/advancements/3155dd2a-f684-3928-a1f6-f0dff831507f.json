@@ -1,0 +1,39 @@
+{
+  "beyondvanilla:berries/jamming": {
+    "criteria": {
+      "jamming": "2020-08-26 14:58:18 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/juicy": {
+    "criteria": {
+      "juicy": "2020-08-26 14:58:18 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "red_sweet_berries": "2020-08-26 14:58:18 +0200"
+    },
+    "done": false
+  },
+  "beyondvanilla:berries/grind_em_up": {
+    "criteria": {
+      "grinder": "2020-08-26 14:58:18 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-26 14:58:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-26 14:58:18 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

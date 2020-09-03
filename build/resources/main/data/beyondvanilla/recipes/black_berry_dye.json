@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beyondvanilla:black_pulverized_berries"
+  },
+  "result": "minecraft:black_dye",
+  "experience": 0,
+  "cookingtime": 25
+}

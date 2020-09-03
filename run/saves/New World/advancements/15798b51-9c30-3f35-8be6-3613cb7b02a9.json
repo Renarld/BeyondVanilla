@@ -1,0 +1,77 @@
+{
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:26:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:26:37 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "lime_sweet_berries": "2020-08-31 17:25:17 +0200",
+      "white_sweet_berries": "2020-08-31 17:25:17 +0200",
+      "magenta_sweet_berries": "2020-08-31 17:25:17 +0200",
+      "light_blue_sweet_berries": "2020-08-31 17:25:17 +0200",
+      "brown_sweet_berries": "2020-08-31 17:25:17 +0200",
+      "orange_sweet_berries": "2020-08-31 17:25:17 +0200",
+      "blue_sweet_berries": "2020-08-31 17:25:17 +0200",
+      "black_sweet_berries": "2020-08-31 17:25:17 +0200",
+      "yellow_sweet_berries": "2020-08-31 17:25:17 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-08-31 17:25:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2020-08-31 17:26:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:26:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:26:37 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-31 17:25:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:26:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:26:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-31 17:25:17 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

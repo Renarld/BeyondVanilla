@@ -1,0 +1,127 @@
+{
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:08:59 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/perfect_berries": {
+    "criteria": {
+      "perfect_berries": "2020-08-31 17:04:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2020-08-31 17:02:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:08:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-08-31 17:04:39 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/grind_em_up": {
+    "criteria": {
+      "grinder": "2020-08-31 17:04:44 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-31 17:04:24 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/jamming": {
+    "criteria": {
+      "jamming": "2020-08-31 17:04:44 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/juicy": {
+    "criteria": {
+      "juicy": "2020-08-31 17:04:44 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "pink_sweet_berries": "2020-08-31 17:04:29 +0200",
+      "lime_sweet_berries": "2020-08-31 17:04:30 +0200",
+      "gray_sweet_berries": "2020-08-31 17:04:29 +0200",
+      "white_sweet_berries": "2020-08-31 17:04:37 +0200",
+      "purple_sweet_berries": "2020-08-31 17:04:26 +0200",
+      "perfect_sweet_berries": "2020-08-31 17:04:38 +0200",
+      "magenta_sweet_berries": "2020-08-31 17:04:33 +0200",
+      "green_sweet_berries": "2020-08-31 17:04:25 +0200",
+      "light_blue_sweet_berries": "2020-08-31 17:04:32 +0200",
+      "brown_sweet_berries": "2020-08-31 17:04:35 +0200",
+      "red_sweet_berries": "2020-08-31 17:04:24 +0200",
+      "cyan_sweet_berries": "2020-08-31 17:04:27 +0200",
+      "orange_sweet_berries": "2020-08-31 17:04:34 +0200",
+      "blue_sweet_berries": "2020-08-31 17:04:35 +0200",
+      "light_gray_sweet_berries": "2020-08-31 17:04:28 +0200",
+      "black_sweet_berries": "2020-08-31 17:04:36 +0200",
+      "yellow_sweet_berries": "2020-08-31 17:04:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2020-08-31 17:02:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2020-08-31 17:02:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:08:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:08:59 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/sandwich_time": {
+    "criteria": {
+      "sandwich_time": "2020-08-31 17:04:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:08:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2020-08-31 17:08:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-31 17:02:27 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beyondvanilla:light_blue_berry_juice"
+  },
+  "result": "beyondvanilla:light_blue_berry_jam",
+  "experience": 0,
+  "cookingtime": 50
+}

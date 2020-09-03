@@ -1,0 +1,17 @@
+black: 262626
+blue: 3498db
+brown: A0522D
+cyan: 00FFFF
+gray: 696969
+green: 008000
+light blue: 86c5da
+light gray: A9A9A9
+lime: 32CD32
+magenta: ff00ff
+orange: ffa500 
+perfect: c71585 
+pink: ffc0cb 
+purple: 800080 
+red: ff0000 
+white: f2f3f4
+yellow: ffff00 

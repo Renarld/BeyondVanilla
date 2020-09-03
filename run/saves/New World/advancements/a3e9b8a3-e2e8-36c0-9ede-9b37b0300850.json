@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_double_plant": "2020-08-30 15:59:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-30 15:59:50 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

@@ -1,0 +1,191 @@
+{
+    "parent": "beyondvanilla:berries/root",
+    "display": {
+        "title": {
+            "translate": "advancements.beyondvanilla.berries.gotta_pick_them_all.title"
+        },
+        "description": {
+            "translate": "advancements.beyondvanilla.berries.gotta_pick_them_all.description"
+        },
+        "icon": {
+            "item": "minecraft:sweet_berries"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "red_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sweet_berries"
+                    }
+                ]
+            }
+        },
+        "green_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:green_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "purple_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:purple_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "cyan_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:cyan_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "light_gray_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:light_gray_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "gray_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:gray_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "pink_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:pink_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "lime_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:lime_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "yellow_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:yellow_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "light_blue_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:light_blue_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "magenta_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:magenta_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "orange_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:orange_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "blue_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:blue_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "brown_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:brown_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "black_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:black_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "white_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:white_sweet_berries"
+                    }
+                ]
+            }
+        },
+        "perfect_sweet_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:perfect_sweet_berries"
+                    }
+                ]
+            }
+        }
+    }
+}

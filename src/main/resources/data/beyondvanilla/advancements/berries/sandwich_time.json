@@ -1,0 +1,31 @@
+{
+    "parent": "beyondvanilla:berries/jamming",
+    "display": {
+        "title": {
+            "translate": "advancements.beyondvanilla.berries.sandwich_time.title"
+        },
+        "description": {
+            "translate": "advancements.beyondvanilla.berries.sandwich_time.description"
+        },
+        "icon": {
+            "item": "beyondvanilla:red_jam_sandwich"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "sandwich_time": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "beyondvanilla:berry_sandwich"
+                    }
+                ]
+            }
+        }
+    }
+}

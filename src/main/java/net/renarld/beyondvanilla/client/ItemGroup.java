@@ -17,7 +17,6 @@ public class ItemGroup {
                 .icon(() -> new ItemStack(ItemRegistration.IRON_LANTERN))
                 .appendItems(stacks -> {
                     stacks.add(new ItemStack(ItemRegistration.SHULKER_TAPE_BOX_ITEM));
-                    stacks.add(new ItemStack(ItemRegistration.SHULKER_TAPE_BOX_BLOCK));
                     stacks.add(new ItemStack(ItemRegistration.CHEST_TO_SHULKER_ITEM));
                     stacks.add(new ItemStack(ItemRegistration.SHULKER_CAPTURE_POD));
                     stacks.add(new ItemStack(ItemRegistration.SOUL_REDSTONE_TORCH));
@@ -31,6 +30,7 @@ public class ItemGroup {
                     stacks.add(new ItemStack(ItemRegistration.IRON_FENCE_GATE));
                     stacks.add(new ItemStack(ItemRegistration.GOLD_FENCE));
                     stacks.add(new ItemStack(ItemRegistration.GOLD_FENCE_GATE));
+                    stacks.add(new ItemStack(ItemRegistration.LOOT_SLIME_SPAWN_EGG));
                 })
                 .build();
 

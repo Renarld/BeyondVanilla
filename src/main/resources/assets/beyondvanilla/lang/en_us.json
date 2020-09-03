@@ -1,0 +1,196 @@
+{
+
+	// GUI
+	"category.beyondvanilla.general_settings":"General Settings",
+	"option.beyondvanilla.blacklist":"Capture Blacklist",
+	"option.beyondvanilla.blacklist.tooltip":"Blacklisted entries can't be captured with a Shulker Capture Pod.",
+
+	"category.beyondvanilla.biome_settings":"Biome Settings",
+	"option.beyondvanilla.bush_spawn_chance":"Bush spawn chance",
+	"option.beyondvanilla.bush_spawn_chance.tooltip":"Sets the spawn chance for Berry Bushes. The higher the number, the rarer they will be.",
+
+	// Beyond Vanilla Berry Advancements
+	"advancements.beyondvanilla.berries.root.title":"Sweet Berries",
+	"advancements.beyondvanilla.berries.root.description":"Find one of many berries.",
+
+	"advancements.beyondvanilla.berries.grind_em_up.title":"Grind 'em up!",
+	"advancements.beyondvanilla.berries.grind_em_up.description":"Grind up some berries.",
+
+	"advancements.beyondvanilla.berries.juicy.title":"Juicy",
+	"advancements.beyondvanilla.berries.juicy.description":"Turn pulverized berries into juice.",
+
+	"advancements.beyondvanilla.berries.jamming.title":"Jamming",
+	"advancements.beyondvanilla.berries.jamming.description":"Turn berry juice into jam.",
+
+	"advancements.beyondvanilla.berries.sandwich_time.title":"Sandwich Time",
+	"advancements.beyondvanilla.berries.sandwich_time.description":"Combine bread with some jam to make a jam sandwich!.",
+
+	"advancements.beyondvanilla.berries.berry_dye.title":"Dye time!",
+	"advancements.beyondvanilla.berries.berry_dye.description":"Hydrate some berries to gain dyes.",
+
+	"advancements.beyondvanilla.berries.gotta_pick_them_all.title":"Gotta pick 'Em all!",
+	"advancements.beyondvanilla.berries.gotta_pick_them_all.description":"Find all available berries in Minecraft.",
+
+	"advancements.beyondvanilla.berries.perfect_berries.title":"The perfect berry!",
+	"advancements.beyondvanilla.berries.perfect_berries.description":"Harvest a perfect berry.",
+
+
+	// Itemgroups
+	"itemGroup.beyondvanilla.beyondvanilla_berry_category":"Beyond Vanilla Berries",
+	"itemGroup.beyondvanilla.beyondvanilla_category":"Beyond Vanilla Items",
+
+	// General Items
+	"item.beyondvanilla.iron_lantern":"Lantern",
+	"block.beyondvanilla.iron_lantern":"Lantern",
+	"item.beyondvanilla.iron_soul_lantern":"Lantern",
+	"block.beyondvanilla.iron_soul_lantern":"Lantern",
+	"item.beyondvanilla.gold_lantern":"Lantern",
+	"block.beyondvanilla.gold_lantern":"Lantern",
+	"item.beyondvanilla.gold_soul_lantern":"Lantern",
+	"block.beyondvanilla.gold_soul_lantern":"Lantern",
+	"item.beyondvanilla.soul_redstone_lamp":"Soul Redstone Lamp",
+	"block.beyondvanilla.soul_redstone_lamp":"Soul Redstone Lamp",
+	"item.beyondvanilla.soul_redstone_torch":"Soul Redstone Torch",
+	"block.beyondvanilla.soul_redstone_torch":"Soul Redstone Torch",
+	"block.beyondvanilla.soul_redstone_wall_torch":"Soul Redstone Torch",
+	"item.beyondvanilla.shulker_tape_box_item":"Shulker Tape",
+	"item.beyondvanilla.shulker_tape_box_block":"Portable Shulker Chest",
+	"block.beyondvanilla.shulker_tape_box_block":"Portable Shulker Chest",
+	"item.beyondvanilla.chest_to_shulker_item":"Shulker Chest Upgrade",
+	"item.beyondvanilla.shulker_capture_pod":"Shulker Capture Pod",
+	"item.beyondvanilla.gold_chain":"Gold Chain",
+	"block.beyondvanilla.gold_chain":"Gold Chain",
+	"item.beyondvanilla.iron_fence":"Iron Fence",
+	"block.beyondvanilla.iron_fence":"Iron Fence",
+	"item.beyondvanilla.iron_fence_gate":"Iron Fence Gate",
+	"block.beyondvanilla.iron_fence_gate":"Iron Fence Gate",
+	"item.beyondvanilla.gold_fence":"Gold Fence",
+	"block.beyondvanilla.gold_fence":"Gold Fence",
+	"item.beyondvanilla.gold_fence_gate":"Gold Fence Gate",
+	"block.beyondvanilla.gold_fence_gate":"Gold Fence Gate",
+	"entity.beyondvanilla.shulker_tape_box_block_entity":"Shulker Tape Block Entity",
+
+	// Shulker Capture Pod tooltip info
+	"tooltip.beyondvanilla.info.shulker_capture_pod.baby": "Baby",
+	"tooltip.beyondvanilla.info.shulker_capture_pod.error": "Unable to retrieve",
+
+	// Beyond Vanilla Berries
+	"item.beyondvanilla.berry_grinder":"Berry Grinder",
+
+	"item.beyondvanilla.red_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.red_berry_juice":"Berry Juice",
+	"item.beyondvanilla.red_berry_jam":"Berry Jam",
+	"item.beyondvanilla.red_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.green_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.green_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.green_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.green_berry_juice":"Berry Juice",
+	"item.beyondvanilla.green_berry_jam":"Berry Jam",
+	"item.beyondvanilla.green_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.purple_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.purple_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.purple_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.purple_berry_juice":"Berry Juice",
+	"item.beyondvanilla.purple_berry_jam":"Berry Jam",
+	"item.beyondvanilla.purple_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.cyan_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.cyan_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.cyan_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.cyan_berry_juice":"Berry Juice",
+	"item.beyondvanilla.cyan_berry_jam":"Berry Jam",
+	"item.beyondvanilla.cyan_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.light_gray_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.light_gray_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.light_gray_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.light_gray_berry_juice":"Berry Juice",
+	"item.beyondvanilla.light_gray_berry_jam":"Berry Jam",
+	"item.beyondvanilla.light_gray_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.gray_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.gray_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.gray_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.gray_berry_juice":"Berry Juice",
+	"item.beyondvanilla.gray_berry_jam":"Berry Jam",
+	"item.beyondvanilla.gray_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.pink_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.pink_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.pink_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.pink_berry_juice":"Berry Juice",
+	"item.beyondvanilla.pink_berry_jam":"Berry Jam",
+	"item.beyondvanilla.pink_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.lime_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.lime_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.lime_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.lime_berry_juice":"Berry Juice",
+	"item.beyondvanilla.lime_berry_jam":"Berry Jam",
+	"item.beyondvanilla.lime_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.yellow_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.yellow_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.yellow_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.yellow_berry_juice":"Berry Juice",
+	"item.beyondvanilla.yellow_berry_jam":"Berry Jam",
+	"item.beyondvanilla.yellow_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.light_blue_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.light_blue_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.light_blue_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.light_blue_berry_juice":"Berry Juice",
+	"item.beyondvanilla.light_blue_berry_jam":"Berry Jam",
+	"item.beyondvanilla.light_blue_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.magenta_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.magenta_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.magenta_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.magenta_berry_juice":"Berry Juice",
+	"item.beyondvanilla.magenta_berry_jam":"Berry Jam",
+	"item.beyondvanilla.magenta_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.orange_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.orange_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.orange_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.orange_berry_juice":"Berry Juice",
+	"item.beyondvanilla.orange_berry_jam":"Berry Jam",
+	"item.beyondvanilla.orange_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.blue_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.blue_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.blue_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.blue_berry_juice":"Berry Juice",
+	"item.beyondvanilla.blue_berry_jam":"Berry Jam",
+	"item.beyondvanilla.blue_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.brown_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.brown_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.brown_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.brown_berry_juice":"Berry Juice",
+	"item.beyondvanilla.brown_berry_jam":"Berry Jam",
+	"item.beyondvanilla.brown_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.black_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.black_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.black_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.black_berry_juice":"Berry Juice",
+	"item.beyondvanilla.black_berry_jam":"Berry Jam",
+	"item.beyondvanilla.black_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.white_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.white_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.white_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.white_berry_juice":"Berry Juice",
+	"item.beyondvanilla.white_berry_jam":"Berry Jam",
+	"item.beyondvanilla.white_jam_sandwich":"Jam Sandwich",
+
+	"block.beyondvanilla.perfect_sweet_berry_bush":"Sweet Berry Bush",
+	"item.beyondvanilla.perfect_sweet_berries":"Sweet Berries",
+	"item.beyondvanilla.perfect_pulverized_berries":"Pulverized Berries",
+	"item.beyondvanilla.perfect_berry_juice":"Berry Juice",
+	"item.beyondvanilla.perfect_berry_jam":"Berry Jam",
+	"item.beyondvanilla.perfect_jam_sandwich":"Jam Sandwich"
+}

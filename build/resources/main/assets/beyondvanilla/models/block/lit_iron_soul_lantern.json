@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_lantern",
+  "textures": {
+    "lantern": "beyondvanilla:block/lit_iron_soul_lantern"
+  }
+}

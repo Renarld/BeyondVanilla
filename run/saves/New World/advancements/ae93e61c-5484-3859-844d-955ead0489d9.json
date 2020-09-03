@@ -1,0 +1,67 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2020-08-24 21:58:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2020-08-24 21:58:06 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/perfect_berries": {
+    "criteria": {
+      "perfect_berries": "2020-08-24 22:00:52 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "pink_sweet_berries": "2020-08-24 21:58:57 +0200",
+      "lime_sweet_berries": "2020-08-24 22:00:27 +0200",
+      "gray_sweet_berries": "2020-08-24 22:00:25 +0200",
+      "white_sweet_berries": "2020-08-24 22:00:51 +0200",
+      "purple_sweet_berries": "2020-08-24 22:00:21 +0200",
+      "perfect_sweet_berries": "2020-08-24 22:00:52 +0200",
+      "magenta_sweet_berries": "2020-08-24 22:00:45 +0200",
+      "green_sweet_berries": "2020-08-24 22:00:20 +0200",
+      "light_blue_sweet_berries": "2020-08-24 22:00:44 +0200",
+      "brown_sweet_berries": "2020-08-24 22:00:49 +0200",
+      "red_sweet_berries": "2020-08-24 21:59:06 +0200",
+      "cyan_sweet_berries": "2020-08-24 22:00:22 +0200",
+      "orange_sweet_berries": "2020-08-24 22:00:46 +0200",
+      "blue_sweet_berries": "2020-08-24 22:00:48 +0200",
+      "light_gray_sweet_berries": "2020-08-24 22:00:24 +0200",
+      "black_sweet_berries": "2020-08-24 22:00:50 +0200",
+      "yellow_sweet_berries": "2020-08-24 22:00:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2020-08-24 21:57:37 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/grind_em_up": {
+    "criteria": {
+      "grinder": "2020-08-24 21:58:30 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-24 21:58:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-24 21:55:36 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

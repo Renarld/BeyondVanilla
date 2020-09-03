@@ -1,0 +1,15 @@
+{
+  "beyondvanilla:berries/jamming": {
+    "criteria": {
+      "jamming": "2020-09-02 14:25:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-09-02 14:23:43 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}

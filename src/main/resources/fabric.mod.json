@@ -15,7 +15,7 @@
       "net.renarld.beyondvanilla.BeyondVanilla"
     ],
     "client": [
-      "net.renarld.beyondvanilla.BlockRender"
+      "net.renarld.beyondvanilla.Client"
     ],
     "modmenu": [
       "net.renarld.beyondvanilla.ModMenu"

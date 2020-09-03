@@ -1,0 +1,133 @@
+{
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2020-08-24 22:15:18 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/berry_dye": {
+    "criteria": {
+      "berry_dye": "2020-08-24 22:15:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2020-08-24 22:15:22 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/perfect_berries": {
+    "criteria": {
+      "perfect_berries": "2020-08-24 22:14:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-08-24 22:14:58 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/grind_em_up": {
+    "criteria": {
+      "grinder": "2020-08-24 22:14:18 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-24 22:14:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot": {
+    "criteria": {
+      "has_iron_ore": "2020-08-24 22:15:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_pink_dye": "2020-08-24 22:15:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2020-08-24 22:15:28 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/jamming": {
+    "criteria": {
+      "jamming": "2020-08-24 22:14:31 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/juicy": {
+    "criteria": {
+      "juicy": "2020-08-24 22:14:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet_from_white_carpet": {
+    "criteria": {
+      "has_pink_dye": "2020-08-24 22:15:28 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "pink_sweet_berries": "2020-08-24 22:14:58 +0200",
+      "lime_sweet_berries": "2020-08-24 22:14:58 +0200",
+      "gray_sweet_berries": "2020-08-24 22:14:28 +0200",
+      "white_sweet_berries": "2020-08-24 22:14:56 +0200",
+      "purple_sweet_berries": "2020-08-24 22:14:59 +0200",
+      "perfect_sweet_berries": "2020-08-24 22:14:47 +0200",
+      "magenta_sweet_berries": "2020-08-24 22:15:02 +0200",
+      "green_sweet_berries": "2020-08-24 22:15:00 +0200",
+      "light_blue_sweet_berries": "2020-08-24 22:14:58 +0200",
+      "brown_sweet_berries": "2020-08-24 22:14:57 +0200",
+      "red_sweet_berries": "2020-08-24 22:15:00 +0200",
+      "cyan_sweet_berries": "2020-08-24 22:14:59 +0200",
+      "orange_sweet_berries": "2020-08-24 22:14:57 +0200",
+      "blue_sweet_berries": "2020-08-24 22:14:57 +0200",
+      "light_gray_sweet_berries": "2020-08-24 22:14:59 +0200",
+      "black_sweet_berries": "2020-08-24 22:14:56 +0200",
+      "yellow_sweet_berries": "2020-08-24 22:14:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2020-08-24 22:15:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting": {
+    "criteria": {
+      "has_iron_ore": "2020-08-24 22:15:42 +0200"
+    },
+    "done": true
+  },
+  "beyondvanilla:berries/sandwich_time": {
+    "criteria": {
+      "sandwich_time": "2020-08-24 22:14:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-24 22:14:18 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_pink_dye": "2020-08-24 22:15:28 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 2567
+}

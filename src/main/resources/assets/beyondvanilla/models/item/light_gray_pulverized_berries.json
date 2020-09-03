@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "beyondvanilla:item/light_gray_pulverized_berries"
+    }
+}

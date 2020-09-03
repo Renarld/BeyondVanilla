@@ -1,0 +1,22 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:sweet_berries",
+		"beyondvanilla:green_sweet_berries",
+		"beyondvanilla:purple_sweet_berries",
+		"beyondvanilla:cyan_sweet_berries",
+		"beyondvanilla:light_gray_sweet_berries",
+		"beyondvanilla:gray_sweet_berries",
+		"beyondvanilla:pink_sweet_berries",
+		"beyondvanilla:lime_sweet_berries",
+		"beyondvanilla:yellow_sweet_berries",
+		"beyondvanilla:light_blue_sweet_berries",
+		"beyondvanilla:magenta_sweet_berries",
+		"beyondvanilla:orange_sweet_berries",
+		"beyondvanilla:blue_sweet_berries",
+		"beyondvanilla:brown_sweet_berries",
+		"beyondvanilla:black_sweet_berries",
+		"beyondvanilla:white_sweet_berries",
+		"beyondvanilla:perfect_sweet_berries"
+	]
+}

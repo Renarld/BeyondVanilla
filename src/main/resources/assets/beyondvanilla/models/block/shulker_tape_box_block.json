@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "beyondvanilla:block/shulker_tape_box_block"
+  }
+}
+

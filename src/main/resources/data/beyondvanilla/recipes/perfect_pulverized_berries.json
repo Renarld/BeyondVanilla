@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "beyondvanilla:perfect_sweet_berries"
+        },
+        {
+            "item": "beyondvanilla:berry_grinder"
+        },
+        {
+      "item": "minecraft:glass_bottle"
+        }
+    ],
+    "result": {
+        "item": "beyondvanilla:perfect_pulverized_berries",
+        "count": 1
+    }
+}

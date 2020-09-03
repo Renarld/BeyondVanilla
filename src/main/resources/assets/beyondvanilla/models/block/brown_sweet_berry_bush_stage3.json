@@ -1,0 +1,6 @@
+{
+    "parent": "beyondvanilla:block/_sweet_berry_bush_stage3",
+    "textures": {
+        "berry": "beyondvanilla:block/brown_sweet_berry_stage3"
+    }
+}

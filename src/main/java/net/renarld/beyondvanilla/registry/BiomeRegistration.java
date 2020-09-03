@@ -1,13 +1,11 @@
 package net.renarld.beyondvanilla.registry;
 
 import com.google.common.collect.ImmutableSet;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.SweetBerryBushBlock;
+import net.minecraft.entity.SpawnGroup;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
 import net.minecraft.world.gen.GenerationStep;
-import net.minecraft.world.gen.decorator.ChanceDecoratorConfig;
 import net.minecraft.world.gen.decorator.CountDecoratorConfig;
 import net.minecraft.world.gen.decorator.Decorator;
 import net.minecraft.world.gen.feature.Feature;
@@ -15,6 +13,8 @@ import net.minecraft.world.gen.feature.RandomPatchFeatureConfig;
 import net.minecraft.world.gen.placer.SimpleBlockPlacer;
 import net.minecraft.world.gen.stateprovider.SimpleBlockStateProvider;
 import net.renarld.beyondvanilla.config.Config;
+
+import java.rmi.registry.Registry;
 import java.util.*;
 
 import static net.minecraft.world.gen.surfacebuilder.SurfaceBuilder.GRASS_BLOCK;
@@ -98,5 +98,9 @@ public class BiomeRegistration {
         });
 
         snow_tundra_set.forEach(biome -> biome.addFeature(GenerationStep.Feature.VEGETAL_DECORATION, Feature.RANDOM_PATCH.configure(WHITE_BERRY_BUSH_CONFIG).createDecoratedFeature(Decorator.COUNT_HEIGHTMAP_DOUBLE.configure(new CountDecoratorConfig(Config.getConfig().getBushSpawnChance())))));
+
+        Biome.BIOMES.forEach(biome -> {
+            biome.getEntitySpawnList(SpawnGroup.MONSTER).add(new Biome.SpawnEntry(EntityRegistration.LOOT_SLIME_ENTITY, 1, 1, 1));
+        });
     }
 }

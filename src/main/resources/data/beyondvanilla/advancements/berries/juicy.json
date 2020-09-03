@@ -1,0 +1,31 @@
+{
+    "parent": "beyondvanilla:berries/grind_em_up",
+    "display": {
+        "title": {
+            "translate": "advancements.beyondvanilla.berries.juicy.title"
+        },
+        "description": {
+            "translate": "advancements.beyondvanilla.berries.juicy.description"
+        },
+        "icon": {
+            "item": "beyondvanilla:red_berry_juice"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "juicy": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "beyondvanilla:berry_juice"
+                    }
+                ]
+            }
+        }
+    }
+}

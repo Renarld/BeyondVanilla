@@ -1,0 +1,21 @@
+{
+  "beyondvanilla:berries/gotta_pick_them_all": {
+    "criteria": {
+      "red_sweet_berries": "2020-08-31 00:58:38 +0200"
+    },
+    "done": false
+  },
+  "beyondvanilla:berries/root": {
+    "criteria": {
+      "berries": "2020-08-31 00:58:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2020-08-31 00:58:28 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2567
+}
