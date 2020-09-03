@@ -31,4 +31,4 @@ Beyond Vanilla is a Fabric mod that adds small vanilla-like features that enhanc
 ##### Added Iron and Gold Fences and Fence gates that fit the Lantern
 * Crafted the same way as normal fences but with Ingots and Nuggets instead
 
-#####Warning: Some of these features are experimental (Shulker Tape and Capture Pod) and might cause unexpected results. Please report any of these bugs when found.
+##### Warning: Some of these features are experimental (Shulker Tape and Capture Pod) and might cause unexpected results. Please report any of these bugs when found.
