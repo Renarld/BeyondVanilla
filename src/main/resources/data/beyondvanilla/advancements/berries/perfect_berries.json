@@ -1,0 +1,31 @@
+{
+    "parent": "beyondvanilla:berries/root",
+    "display": {
+        "title": {
+            "translate": "advancements.beyondvanilla.berries.perfect_berries.title"
+        },
+        "description": {
+            "translate": "advancements.beyondvanilla.berries.perfect_berries.description"
+        },
+        "icon": {
+            "item": "beyondvanilla:perfect_sweet_berries"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "perfect_berries": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "beyondvanilla:perfect_sweet_berries"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "beyondvanilla:block/soul_redstone_torch_off"
+    },
+    "lit=true": {
+      "model": "beyondvanilla:block/soul_redstone_torch"
+    }
+  }
+}

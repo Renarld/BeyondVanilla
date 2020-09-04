@@ -1,0 +1,51 @@
+{
+	"textures": {
+		"particle": "beyondvanilla:block/gold_fence_post",
+		"post": "beyondvanilla:block/gold_fence_post",
+		"spike": "beyondvanilla:block/gold_fence_spike"
+	},
+	"elements": [
+		{
+			"name": "post",
+			"from": [7, 0, 7],
+			"to": [9, 13, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [0, 3, 2, 16], "texture": "#post"},
+				"east": {"uv": [6, 3, 8, 16], "texture": "#post"},
+				"south": {"uv": [2, 3, 4, 16], "texture": "#post"},
+				"west": {"uv": [4, 3, 6, 16], "texture": "#post"},
+				"up": {"uv": [14, 0, 16, 2], "texture": "#post", "cullface": "up"},
+				"down": {"uv": [14, 2, 16, 4], "texture": "#post", "cullface": "down"}
+			}
+		},
+		{
+			"name": "spike",
+			"from": [8.009, 13, 6.58],
+			"to": [8.009, 16, 9.38],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8.02447, 14, 8.00158]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 3], "texture": "#spike"},
+				"east": {"uv": [0, 0, 6, 6], "texture": "#spike"},
+				"south": {"uv": [0, 0, 0, 3], "texture": "#spike"},
+				"west": {"uv": [0, 0, 6, 6], "texture": "#spike"},
+				"up": {"uv": [0, 0, 0, 3], "texture": "#spike"},
+				"down": {"uv": [0, 0, 0, 3], "texture": "#spike"}
+			}
+		},
+		{
+			"name": "spike",
+			"from": [8.009, 13, 6.62],
+			"to": [8.009, 16, 9.42],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8.02447, 14, 8.00158]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 3], "texture": "#spike"},
+				"east": {"uv": [0, 0, 6, 6], "texture": "#spike"},
+				"south": {"uv": [0, 0, 0, 3], "texture": "#spike"},
+				"west": {"uv": [0, 0, 6, 6], "texture": "#spike"},
+				"up": {"uv": [0, 0, 0, 3], "texture": "#spike"},
+				"down": {"uv": [0, 0, 0, 3], "texture": "#spike"}
+			}
+		}
+	]
+}

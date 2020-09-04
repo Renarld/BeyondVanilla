@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "hanging=false,lit=true": {
+      "model": "beyondvanilla:block/lit_gold_soul_lantern"
+    },
+    "hanging=true,lit=true": {
+      "model": "beyondvanilla:block/lit_hanging_gold_soul_lantern"
+    },
+    "hanging=false,lit=false": {
+      "model": "beyondvanilla:block/gold_soul_lantern"
+    },
+    "hanging=true,lit=false": {
+      "model": "beyondvanilla:block/hanging_gold_soul_lantern"
+    }
+  }
+}

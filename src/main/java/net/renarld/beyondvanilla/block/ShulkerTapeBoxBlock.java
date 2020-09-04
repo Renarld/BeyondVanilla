@@ -5,6 +5,7 @@ import net.fabricmc.api.Environment;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.ChestBlockEntity;
+import net.minecraft.block.entity.LootableContainerBlockEntity;
 import net.minecraft.block.enums.ChestType;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.ItemEntity;
@@ -16,6 +17,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.NbtHelper;
 import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.state.property.EnumProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.state.property.Property;
 import net.minecraft.text.LiteralText;
 import net.minecraft.text.MutableText;
@@ -100,35 +102,43 @@ public class ShulkerTapeBoxBlock extends Block implements BlockEntityProvider {
                     compoundTag.putInt("y", pos.getY());
                     compoundTag.putInt("z", pos.getZ());
 
-                    DirectionProperty FACING = HorizontalFacingBlock.FACING;
-
+                    DirectionProperty FACING = Properties.FACING;
+                    DirectionProperty HORIZONTAL_FACING = Properties.HORIZONTAL_FACING;
                     Direction direction = player.getHorizontalFacing().getOpposite();
-                    blockState = blockState.with(FACING, direction);
-                    BlockState neighborChest = world.getBlockState(pos.offset(direction.rotateYClockwise()));
 
-                    if (neighborChest.isOf(Blocks.CHEST) && direction.getAxis().isHorizontal()) {
-                        if (neighborChest.get(CHEST_TYPE) == ChestType.SINGLE && neighborChest.get(FACING) == blockState.get(FACING)) {
-                            world.setBlockState(pos.offset(direction.rotateYClockwise()), neighborChest.with(CHEST_TYPE, ChestType.RIGHT));
-                            blockState = blockState.with(CHEST_TYPE, ChestType.LEFT);
-                        }
-                    }
+                    if (blockState.getProperties().contains(HORIZONTAL_FACING)) {
+                        blockState = blockState.with(HORIZONTAL_FACING, direction);
 
-                    neighborChest = world.getBlockState(pos.offset(direction.rotateYCounterclockwise()));
-                    if (neighborChest.isOf(Blocks.CHEST) && direction.getAxis().isHorizontal()) {
-                        if (neighborChest.get(CHEST_TYPE) == ChestType.SINGLE && neighborChest.get(FACING) == blockState.get(FACING)) {
-                            world.setBlockState(pos.offset(direction.rotateYCounterclockwise()), neighborChest.with(CHEST_TYPE, ChestType.LEFT));
-                            blockState = blockState.with(CHEST_TYPE, ChestType.RIGHT);
+                        if (blockState.getBlock() == Blocks.CHEST) {
+                            BlockState neighborChest = world.getBlockState(pos.offset(direction.rotateYClockwise()));
+
+                            if (neighborChest.isOf(Blocks.CHEST) && direction.getAxis().isHorizontal()) {
+                                if (neighborChest.get(CHEST_TYPE) == ChestType.SINGLE && neighborChest.get(HORIZONTAL_FACING) == blockState.get(HORIZONTAL_FACING)) {
+                                    world.setBlockState(pos.offset(direction.rotateYClockwise()), neighborChest.with(CHEST_TYPE, ChestType.RIGHT));
+                                    blockState = blockState.with(CHEST_TYPE, ChestType.LEFT);
+                                }
+                            }
+
+                            neighborChest = world.getBlockState(pos.offset(direction.rotateYCounterclockwise()));
+                            if (neighborChest.isOf(Blocks.CHEST) && direction.getAxis().isHorizontal()) {
+                                if (neighborChest.get(CHEST_TYPE) == ChestType.SINGLE && neighborChest.get(HORIZONTAL_FACING) == blockState.get(HORIZONTAL_FACING)) {
+                                    world.setBlockState(pos.offset(direction.rotateYCounterclockwise()), neighborChest.with(CHEST_TYPE, ChestType.LEFT));
+                                    blockState = blockState.with(CHEST_TYPE, ChestType.RIGHT);
+                                }
+                            }
                         }
+                    } else if (blockState.getProperties().contains(FACING)) {
+                        blockState = blockState.with(FACING, direction);
                     }
 
                     world.removeBlockEntity(pos);
                     world.setBlockState(pos, blockState);
 
-                    ChestBlockEntity chestBlockEntity = (ChestBlockEntity) world.getBlockEntity(pos);
+                    LootableContainerBlockEntity lootableContainerBlockEntity = (LootableContainerBlockEntity) world.getBlockEntity(pos);
 
-                    if (chestBlockEntity != null) {
-                        chestBlockEntity.fromTag(blockState, compoundTag);
-                        chestBlockEntity.markDirty();
+                    if (lootableContainerBlockEntity != null) {
+                        lootableContainerBlockEntity.fromTag(blockState, compoundTag);
+                        lootableContainerBlockEntity.markDirty();
 
                         dropStack(world, pos, new ItemStack(ItemRegistration.SHULKER_TAPE_BOX_ITEM));
                     } else {

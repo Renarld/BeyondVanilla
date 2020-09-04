@@ -1,0 +1,6 @@
+{
+  "parent": "beyondvanilla:block/flower_pot_cross_tint",
+  "textures": {
+    "plant": "beyondvanilla:block/potted_grass"
+  }
+}

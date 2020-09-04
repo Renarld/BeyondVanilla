@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "beyondvanilla:magenta_pulverized_berries"
+        },
+        {
+            "item": "minecraft:sugar"
+        }
+    ],
+    "result": {
+        "item": "beyondvanilla:magenta_berry_juice",
+        "count": 1
+    }
+}

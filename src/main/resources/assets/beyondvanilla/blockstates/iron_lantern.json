@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "hanging=false,lit=true": {
+      "model": "beyondvanilla:block/lit_iron_lantern"
+    },
+    "hanging=true,lit=true": {
+      "model": "beyondvanilla:block/lit_hanging_iron_lantern"
+    },
+    "hanging=false,lit=false": {
+      "model": "beyondvanilla:block/iron_lantern"
+    },
+    "hanging=true,lit=false": {
+      "model": "beyondvanilla:block/hanging_iron_lantern"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beyondvanilla:cyan_berry_juice"
+  },
+  "result": "beyondvanilla:cyan_berry_jam",
+  "experience": 0,
+  "cookingtime": 50
+}

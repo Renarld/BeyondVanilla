@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beyondvanilla:pink_berry_juice"
+  },
+  "result": "beyondvanilla:pink_berry_jam",
+  "experience": 0,
+  "cookingtime": 50
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "beyondvanilla:white_pulverized_berries"
+  },
+  "result": "minecraft:white_dye",
+  "experience": 0,
+  "cookingtime": 25
+}

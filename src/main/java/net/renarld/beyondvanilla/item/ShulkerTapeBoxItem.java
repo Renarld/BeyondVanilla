@@ -5,6 +5,8 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.ChestBlock;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.block.entity.ChestBlockEntity;
+import net.minecraft.block.entity.LootableContainerBlockEntity;
+import net.minecraft.block.entity.ShulkerBoxBlockEntity;
 import net.minecraft.block.enums.ChestType;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -37,7 +39,7 @@ public class ShulkerTapeBoxItem extends Item {
         if (!world.isClient && playerEntity != null) {
             BlockEntity blockEntity = world.getBlockEntity(blockPos);
 
-            if (blockEntity instanceof ChestBlockEntity) {
+            if (blockEntity instanceof LootableContainerBlockEntity && !(blockEntity instanceof ShulkerBoxBlockEntity)) {
                 BlockState blockState = world.getBlockState(blockPos).getBlock().getDefaultState();
                 CompoundTag compoundTag = blockEntity.toTag(new CompoundTag());
 

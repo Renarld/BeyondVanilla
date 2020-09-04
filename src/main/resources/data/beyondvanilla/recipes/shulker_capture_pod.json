@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " E ",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item":"minecraft:shulker_shell"
+    },
+    "E": {
+      "item":"minecraft:ender_pearl"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "beyondvanilla:shulker_capture_pod"
+  }
+}

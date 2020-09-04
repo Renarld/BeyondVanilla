@@ -1,0 +1,7 @@
+{
+  "parent": "beyondvanilla:block/flower_pot_large_cross_tint",
+  "textures": {
+    "plant_bottom": "beyondvanilla:block/potted_tall_grass_bottom",
+    "plant_top": "beyondvanilla:block/potted_tall_grass_top"
+  }
+}

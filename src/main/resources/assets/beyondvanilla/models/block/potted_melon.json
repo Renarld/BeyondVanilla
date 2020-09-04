@@ -1,0 +1,7 @@
+{
+	"parent": "beyondvanilla:block/potted_block",
+	"textures": {
+		"sides": "minecraft:block/melon_side",
+		"top": "minecraft:block/melon_top"
+	}
+}
