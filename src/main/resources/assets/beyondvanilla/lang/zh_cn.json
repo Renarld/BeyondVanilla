@@ -1,0 +1,196 @@
+{
+
+	// GUI
+	"category.beyondvanilla.general_settings":"通用配置",
+	"option.beyondvanilla.blacklist":"潜影捕获球黑名单",
+	"option.beyondvanilla.blacklist.tooltip":"黑名单中的生物将无法被 “潜影捕获球” 捕捉。",
+
+	"category.beyondvanilla.biome_settings":"群系配置",
+	"option.beyondvanilla.bush_spawn_chance":"甜浆果丛稀有度",
+	"option.beyondvanilla.bush_spawn_chance.tooltip":"设定甜浆果丛的稀有度 (数值越高，生成越少)",
+
+	// Beyond Vanilla Berry Advancements
+	"advancements.beyondvanilla.berries.root.title":"甜蜜的浆果",
+	"advancements.beyondvanilla.berries.root.description":"发现甜浆果家族中的任意一员。",
+
+	"advancements.beyondvanilla.berries.grind_em_up.title":"碾碎他们! ",
+	"advancements.beyondvanilla.berries.grind_em_up.description":"把这些甜浆果碾碎吧。",
+
+	"advancements.beyondvanilla.berries.juicy.title":"果肥汁甜",
+	"advancements.beyondvanilla.berries.juicy.description":"将碾碎的甜浆果榨成果汁。",
+
+	"advancements.beyondvanilla.berries.jamming.title":"浆果酱",
+	"advancements.beyondvanilla.berries.jamming.description":"将甜浆果汁制成果酱。",
+
+	"advancements.beyondvanilla.berries.sandwich_time.title":"三明治时间",
+	"advancements.beyondvanilla.berries.sandwich_time.description":"在面包上抹些果酱做成三明治吧!",
+
+	"advancements.beyondvanilla.berries.berry_dye.title":"染料时间! ",
+	"advancements.beyondvanilla.berries.berry_dye.description":"将碾碎的甜浆果烘干成染料吧。",
+
+	"advancements.beyondvanilla.berries.gotta_pick_them_all.title":"一个也别想跑! ",
+	"advancements.beyondvanilla.berries.gotta_pick_them_all.description":"发现所有可获得的甜浆果变种。",
+
+	"advancements.beyondvanilla.berries.perfect_berries.title":"硕果无瑕",
+	"advancements.beyondvanilla.berries.perfect_berries.description":"收获一颗无瑕甜浆果。",
+
+
+	// Itemgroups
+	"itemGroup.beyondvanilla.beyondvanilla_berry_category":"突破原版的甜浆果 §8(Beyond Vanilla Berries)",
+	"itemGroup.beyondvanilla.beyondvanilla_category":"突破原版的物品 §8(Beyond Vanilla Items)",
+
+	// General Items
+	"item.beyondvanilla.iron_lantern":"铁红石灯笼",
+	"block.beyondvanilla.iron_lantern":"铁红石灯笼",
+	"item.beyondvanilla.iron_soul_lantern":"铁红石灵魂灯笼",
+	"block.beyondvanilla.iron_soul_lantern":"铁红石灵魂灯笼",
+	"item.beyondvanilla.gold_lantern":"金红石灯笼",
+	"block.beyondvanilla.gold_lantern":"金红石灯笼",
+	"item.beyondvanilla.gold_soul_lantern":"金红石灵魂灯笼",
+	"block.beyondvanilla.gold_soul_lantern":"金红石灵魂灯笼",
+	"item.beyondvanilla.soul_redstone_lamp":"灵魂红石灯",
+	"block.beyondvanilla.soul_redstone_lamp":"灵魂红石灯",
+	"item.beyondvanilla.soul_redstone_torch":"灵魂红石火把",
+	"block.beyondvanilla.soul_redstone_torch":"灵魂红石火把",
+	"block.beyondvanilla.soul_redstone_wall_torch":"灵魂红石火把",
+	"item.beyondvanilla.shulker_tape_box_item":"潜影胶带",
+	"item.beyondvanilla.shulker_tape_box_block":"便携潜影箱",
+	"block.beyondvanilla.shulker_tape_box_block":"便携潜影箱",
+	"item.beyondvanilla.chest_to_shulker_item":"潜影箱升级",
+	"item.beyondvanilla.shulker_capture_pod":"潜影捕获球",
+	"item.beyondvanilla.gold_chain":"金锁链",
+	"block.beyondvanilla.gold_chain":"金锁链",
+	"item.beyondvanilla.iron_fence":"铁栅栏",
+	"block.beyondvanilla.iron_fence":"铁栅栏",
+	"item.beyondvanilla.iron_fence_gate":"铁栅栏门",
+	"block.beyondvanilla.iron_fence_gate":"铁栅栏门",
+	"item.beyondvanilla.gold_fence":"金栅栏",
+	"block.beyondvanilla.gold_fence":"金栅栏",
+	"item.beyondvanilla.gold_fence_gate":"金栅栏门",
+	"block.beyondvanilla.gold_fence_gate":"金栅栏门",
+	"entity.beyondvanilla.shulker_tape_box_block_entity":"潜影胶带方块实体",
+
+	// Shulker Capture Pod tooltip info
+	"tooltip.beyondvanilla.info.shulker_capture_pod.baby": "幼年",
+	"tooltip.beyondvanilla.info.shulker_capture_pod.error": "无法寻回数据",
+
+	// Beyond Vanilla Berries
+	"item.beyondvanilla.berry_grinder":"甜浆果研磨碗",
+
+	"item.beyondvanilla.red_pulverized_berries":"碾碎的甜浆果",
+	"item.beyondvanilla.red_berry_juice":"甜浆果汁",
+	"item.beyondvanilla.red_berry_jam":"甜浆果酱",
+	"item.beyondvanilla.red_jam_sandwich":"甜浆果酱三明治",
+
+	"block.beyondvanilla.green_sweet_berry_bush":"绿色甜浆果丛",
+	"item.beyondvanilla.green_sweet_berries":"绿色甜浆果",
+	"item.beyondvanilla.green_pulverized_berries":"碾碎的绿色甜浆果",
+	"item.beyondvanilla.green_berry_juice":"绿色甜浆果汁",
+	"item.beyondvanilla.green_berry_jam":"绿色甜浆果酱",
+	"item.beyondvanilla.green_jam_sandwich":"绿色甜浆果酱三明治",
+
+	"block.beyondvanilla.purple_sweet_berry_bush":"紫色甜浆果丛",
+	"item.beyondvanilla.purple_sweet_berries":"紫色甜浆果",
+	"item.beyondvanilla.purple_pulverized_berries":"碾碎的紫色甜浆果",
+	"item.beyondvanilla.purple_berry_juice":"紫色甜浆果汁",
+	"item.beyondvanilla.purple_berry_jam":"紫色甜浆果酱",
+	"item.beyondvanilla.purple_jam_sandwich":"紫色甜浆果酱三明治",
+
+	"block.beyondvanilla.cyan_sweet_berry_bush":"青色甜浆果丛",
+	"item.beyondvanilla.cyan_sweet_berries":"青色甜浆果",
+	"item.beyondvanilla.cyan_pulverized_berries":"碾碎的青色甜浆果",
+	"item.beyondvanilla.cyan_berry_juice":"青色甜浆果汁",
+	"item.beyondvanilla.cyan_berry_jam":"青色甜浆果酱",
+	"item.beyondvanilla.cyan_jam_sandwich":"青色甜浆果酱三明治",
+
+	"block.beyondvanilla.light_gray_sweet_berry_bush":"淡灰色甜浆果丛",
+	"item.beyondvanilla.light_gray_sweet_berries":"淡灰色甜浆果",
+	"item.beyondvanilla.light_gray_pulverized_berries":"碾碎的淡灰色甜浆果",
+	"item.beyondvanilla.light_gray_berry_juice":"淡灰色甜浆果汁",
+	"item.beyondvanilla.light_gray_berry_jam":"淡灰色甜浆果酱",
+	"item.beyondvanilla.light_gray_jam_sandwich":"淡灰色甜浆果酱三明治",
+
+	"block.beyondvanilla.gray_sweet_berry_bush":"灰色甜浆果丛",
+	"item.beyondvanilla.gray_sweet_berries":"灰色甜浆果",
+	"item.beyondvanilla.gray_pulverized_berries":"碾碎的灰色甜浆果",
+	"item.beyondvanilla.gray_berry_juice":"灰色甜浆果汁",
+	"item.beyondvanilla.gray_berry_jam":"灰色甜浆果酱",
+	"item.beyondvanilla.gray_jam_sandwich":"灰色甜浆果酱三明治",
+
+	"block.beyondvanilla.pink_sweet_berry_bush":"粉色甜浆果丛",
+	"item.beyondvanilla.pink_sweet_berries":"粉色甜浆果",
+	"item.beyondvanilla.pink_pulverized_berries":"碾碎的粉色甜浆果",
+	"item.beyondvanilla.pink_berry_juice":"粉色甜浆果汁",
+	"item.beyondvanilla.pink_berry_jam":"粉色甜浆果酱",
+	"item.beyondvanilla.pink_jam_sandwich":"粉色甜浆果酱三明治",
+
+	"block.beyondvanilla.lime_sweet_berry_bush":"黄绿色甜浆果丛",
+	"item.beyondvanilla.lime_sweet_berries":"黄绿色甜浆果",
+	"item.beyondvanilla.lime_pulverized_berries":"碾碎的黄绿色甜浆果",
+	"item.beyondvanilla.lime_berry_juice":"黄绿色甜浆果汁",
+	"item.beyondvanilla.lime_berry_jam":"黄绿色甜浆果酱",
+	"item.beyondvanilla.lime_jam_sandwich":"黄绿色甜浆果酱三明治",
+
+	"block.beyondvanilla.yellow_sweet_berry_bush":"黄色甜浆果丛",
+	"item.beyondvanilla.yellow_sweet_berries":"黄色甜浆果",
+	"item.beyondvanilla.yellow_pulverized_berries":"碾碎的黄色甜浆果",
+	"item.beyondvanilla.yellow_berry_juice":"黄色甜浆果汁",
+	"item.beyondvanilla.yellow_berry_jam":"黄色甜浆果酱",
+	"item.beyondvanilla.yellow_jam_sandwich":"黄色甜浆果酱三明治",
+
+	"block.beyondvanilla.light_blue_sweet_berry_bush":"淡蓝色甜浆果丛",
+	"item.beyondvanilla.light_blue_sweet_berries":"淡蓝色甜浆果",
+	"item.beyondvanilla.light_blue_pulverized_berries":"碾碎的淡蓝色甜浆果",
+	"item.beyondvanilla.light_blue_berry_juice":"淡蓝色甜浆果汁",
+	"item.beyondvanilla.light_blue_berry_jam":"淡蓝色甜浆果酱",
+	"item.beyondvanilla.light_blue_jam_sandwich":"淡蓝色甜浆果酱三明治",
+
+	"block.beyondvanilla.magenta_sweet_berry_bush":"品红色甜浆果丛",
+	"item.beyondvanilla.magenta_sweet_berries":"品红色甜浆果",
+	"item.beyondvanilla.magenta_pulverized_berries":"碾碎的品红色甜浆果",
+	"item.beyondvanilla.magenta_berry_juice":"品红色甜浆果汁",
+	"item.beyondvanilla.magenta_berry_jam":"品红色甜浆果酱",
+	"item.beyondvanilla.magenta_jam_sandwich":"品红色甜浆果酱三明治",
+
+	"block.beyondvanilla.orange_sweet_berry_bush":"橙色甜浆果丛",
+	"item.beyondvanilla.orange_sweet_berries":"橙色甜浆果",
+	"item.beyondvanilla.orange_pulverized_berries":"碾碎的橙色甜浆果",
+	"item.beyondvanilla.orange_berry_juice":"橙色甜浆果汁",
+	"item.beyondvanilla.orange_berry_jam":"橙色甜浆果酱",
+	"item.beyondvanilla.orange_jam_sandwich":"橙色甜浆果酱三明治",
+
+	"block.beyondvanilla.blue_sweet_berry_bush":"蓝色甜浆果丛",
+	"item.beyondvanilla.blue_sweet_berries":"蓝色甜浆果",
+	"item.beyondvanilla.blue_pulverized_berries":"碾碎的蓝色甜浆果",
+	"item.beyondvanilla.blue_berry_juice":"蓝色甜浆果汁",
+	"item.beyondvanilla.blue_berry_jam":"蓝色甜浆果酱",
+	"item.beyondvanilla.blue_jam_sandwich":"蓝色甜浆果酱三明治",
+
+	"block.beyondvanilla.brown_sweet_berry_bush":"棕色甜浆果丛",
+	"item.beyondvanilla.brown_sweet_berries":"棕色甜浆果",
+	"item.beyondvanilla.brown_pulverized_berries":"碾碎的棕色甜浆果",
+	"item.beyondvanilla.brown_berry_juice":"棕色甜浆果汁",
+	"item.beyondvanilla.brown_berry_jam":"棕色甜浆果酱",
+	"item.beyondvanilla.brown_jam_sandwich":"棕色甜浆果酱三明治",
+
+	"block.beyondvanilla.black_sweet_berry_bush":"黑色甜浆果丛",
+	"item.beyondvanilla.black_sweet_berries":"黑色甜浆果",
+	"item.beyondvanilla.black_pulverized_berries":"碾碎的黑色甜浆果",
+	"item.beyondvanilla.black_berry_juice":"黑色甜浆果汁",
+	"item.beyondvanilla.black_berry_jam":"黑色甜浆果酱",
+	"item.beyondvanilla.black_jam_sandwich":"黑色甜浆果酱三明治",
+
+	"block.beyondvanilla.white_sweet_berry_bush":"白色甜浆果丛",
+	"item.beyondvanilla.white_sweet_berries":"白色甜浆果",
+	"item.beyondvanilla.white_pulverized_berries":"碾碎的白色甜浆果",
+	"item.beyondvanilla.white_berry_juice":"白色甜浆果汁",
+	"item.beyondvanilla.white_berry_jam":"白色甜浆果酱",
+	"item.beyondvanilla.white_jam_sandwich":"白色甜浆果酱三明治",
+
+	"block.beyondvanilla.perfect_sweet_berry_bush":"无瑕甜浆果丛",
+	"item.beyondvanilla.perfect_sweet_berries":"无瑕甜浆果",
+	"item.beyondvanilla.perfect_pulverized_berries":"碾碎的无瑕甜浆果",
+	"item.beyondvanilla.perfect_berry_juice":"无瑕甜浆果汁",
+	"item.beyondvanilla.perfect_berry_jam":"无瑕甜浆果酱",
+	"item.beyondvanilla.perfect_jam_sandwich":"无瑕甜浆果酱三明治"
+}
