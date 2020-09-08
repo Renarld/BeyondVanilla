@@ -6,10 +6,10 @@ import net.minecraft.entity.SpawnGroup;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
 import net.minecraft.world.gen.GenerationStep;
+import net.minecraft.world.gen.decorator.ChanceDecoratorConfig;
 import net.minecraft.world.gen.decorator.CountDecoratorConfig;
 import net.minecraft.world.gen.decorator.Decorator;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.RandomPatchFeatureConfig;
+import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.placer.SimpleBlockPlacer;
 import net.minecraft.world.gen.stateprovider.SimpleBlockStateProvider;
 import net.renarld.beyondvanilla.config.Config;
@@ -64,6 +64,7 @@ public class BiomeRegistration {
         BLACK_BERRY_BUSH_CONFIG = (new RandomPatchFeatureConfig.Builder(new SimpleBlockStateProvider(BlockRegistration.BLACK_SWEET_BERRY_BUSH.getDefaultState().with(SweetBerryBushBlock.AGE, 3)), SimpleBlockPlacer.field_24871)).tries(64).whitelist(ImmutableSet.of(GRASS_BLOCK.getBlock())).cannotProject().build();
         WHITE_BERRY_BUSH_CONFIG = (new RandomPatchFeatureConfig.Builder(new SimpleBlockStateProvider(BlockRegistration.WHITE_SWEET_BERRY_BUSH.getDefaultState().with(SweetBerryBushBlock.AGE, 3)), SimpleBlockPlacer.field_24871)).tries(64).whitelist(ImmutableSet.of(GRASS_BLOCK.getBlock())).cannotProject().build();
 
+
         jungle_set.forEach(biome -> {
             biome.addFeature(GenerationStep.Feature.VEGETAL_DECORATION, Feature.RANDOM_PATCH.configure(GREEN_BERRY_BUSH_CONFIG).createDecoratedFeature(Decorator.COUNT_HEIGHTMAP_DOUBLE.configure(new CountDecoratorConfig(Config.getConfig().getBushSpawnChance()))));
             biome.addFeature(GenerationStep.Feature.VEGETAL_DECORATION, Feature.RANDOM_PATCH.configure(LIME_BERRY_BUSH_CONFIG).createDecoratedFeature(Decorator.COUNT_HEIGHTMAP_DOUBLE.configure(new CountDecoratorConfig(Config.getConfig().getBushSpawnChance()))));
@@ -98,9 +99,5 @@ public class BiomeRegistration {
         });
 
         snow_tundra_set.forEach(biome -> biome.addFeature(GenerationStep.Feature.VEGETAL_DECORATION, Feature.RANDOM_PATCH.configure(WHITE_BERRY_BUSH_CONFIG).createDecoratedFeature(Decorator.COUNT_HEIGHTMAP_DOUBLE.configure(new CountDecoratorConfig(Config.getConfig().getBushSpawnChance())))));
-
-        Biome.BIOMES.forEach(biome -> {
-            biome.getEntitySpawnList(SpawnGroup.MONSTER).add(new Biome.SpawnEntry(EntityRegistration.LOOT_SLIME_ENTITY, 1, 1, 1));
-        });
     }
 }

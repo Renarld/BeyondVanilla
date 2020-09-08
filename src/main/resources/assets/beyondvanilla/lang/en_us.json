@@ -9,6 +9,19 @@
 	"option.beyondvanilla.bush_spawn_chance":"Bush spawn chance",
 	"option.beyondvanilla.bush_spawn_chance.tooltip":"Sets the spawn chance for Berry Bushes. The higher the number, the rarer they will be.",
 
+	"category.beyondvanilla.slime_settings":"Loot Slime Settings",
+	"option.beyondvanilla.minecraft:diamond.enabled":"Diamonds enabled",
+	"option.beyondvanilla.minecraft:diamond.droprate":"Diamond droprate",
+	"option.beyondvanilla.minecraft:emerald.enabled":"Emeralds enabled",
+	"option.beyondvanilla.minecraft:emerald.droprate":"Emerald droprate",
+	"option.beyondvanilla.beyondvanilla:perfect_sweet_berries.enabled":"Perfect Berries enabled",
+	"option.beyondvanilla.beyondvanilla:perfect_sweet_berries.droprate":"Perfect Berries droprate",
+	"option.beyondvanilla.minecraft:experience_bottle.enabled":"Experience Bottles enabled",
+	"option.beyondvanilla.minecraft:experience_bottle.droprate":"Experience Bottle droprate",
+	"option.beyondvanilla.minecraft:music_disc_11.enabled":"Music Discs enabled",
+	"option.beyondvanilla.minecraft:ender_pearl.enabled":"Ender Pearls enabled",
+	"option.beyondvanilla.minecraft:ender_pearl.droprate":"Ender Pearl droprate",
+
 	// Beyond Vanilla Berry Advancements
 	"advancements.beyondvanilla.berries.root.title":"Sweet Berries",
 	"advancements.beyondvanilla.berries.root.description":"Find one of many berries.",
@@ -42,33 +55,50 @@
 	// General Items
 	"item.beyondvanilla.iron_lantern":"Lantern",
 	"block.beyondvanilla.iron_lantern":"Lantern",
+
 	"item.beyondvanilla.iron_soul_lantern":"Lantern",
 	"block.beyondvanilla.iron_soul_lantern":"Lantern",
+
 	"item.beyondvanilla.gold_lantern":"Lantern",
 	"block.beyondvanilla.gold_lantern":"Lantern",
+
 	"item.beyondvanilla.gold_soul_lantern":"Lantern",
 	"block.beyondvanilla.gold_soul_lantern":"Lantern",
+
 	"item.beyondvanilla.soul_redstone_lamp":"Soul Redstone Lamp",
 	"block.beyondvanilla.soul_redstone_lamp":"Soul Redstone Lamp",
+
 	"item.beyondvanilla.soul_redstone_torch":"Soul Redstone Torch",
 	"block.beyondvanilla.soul_redstone_torch":"Soul Redstone Torch",
 	"block.beyondvanilla.soul_redstone_wall_torch":"Soul Redstone Torch",
+
 	"item.beyondvanilla.shulker_tape_box_item":"Shulker Tape",
+
 	"item.beyondvanilla.shulker_tape_box_block":"Portable Shulker Chest",
 	"block.beyondvanilla.shulker_tape_box_block":"Portable Shulker Chest",
+
 	"item.beyondvanilla.chest_to_shulker_item":"Shulker Chest Upgrade",
+
 	"item.beyondvanilla.shulker_capture_pod":"Shulker Capture Pod",
+
 	"item.beyondvanilla.gold_chain":"Gold Chain",
 	"block.beyondvanilla.gold_chain":"Gold Chain",
+
 	"item.beyondvanilla.iron_fence":"Iron Fence",
 	"block.beyondvanilla.iron_fence":"Iron Fence",
+
 	"item.beyondvanilla.iron_fence_gate":"Iron Fence Gate",
 	"block.beyondvanilla.iron_fence_gate":"Iron Fence Gate",
+
 	"item.beyondvanilla.gold_fence":"Gold Fence",
 	"block.beyondvanilla.gold_fence":"Gold Fence",
+
 	"item.beyondvanilla.gold_fence_gate":"Gold Fence Gate",
 	"block.beyondvanilla.gold_fence_gate":"Gold Fence Gate",
+
 	"entity.beyondvanilla.shulker_tape_box_block_entity":"Shulker Tape Block Entity",
+
+	"item.beyondvanilla.loot_slime_spawn_egg": "Loot Slime Spawn Egg",
 
 	// Shulker Capture Pod tooltip info
 	"tooltip.beyondvanilla.info.shulker_capture_pod.baby": "Baby",
